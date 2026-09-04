@@ -428,9 +428,6 @@ button {
     transform: translateY(-28px);
 }
 
-/* =========================================
-   PRICING HERO CONTENT
-========================================= */
 
 .pricing-hero-content {
     margin-top: 75px;
@@ -442,10 +439,6 @@ button {
     max-width: 520px;
 }
 
-
-/* =========================================
-   TITLE
-========================================= */
 
 .pricing-hero-title {
     margin: 0 0 45px;
@@ -467,10 +460,6 @@ button {
 }
 
 
-/* =========================================
-   DESCRIPTION
-========================================= */
-
 .pricing-hero-description {
     max-width: 470px;
 
@@ -483,9 +472,7 @@ button {
 }
 
 
-/* =========================================
-   BREADCRUMB BUTTON
-========================================= */
+
 
 .pricing-hero-breadcrumb {
     position: relative;
@@ -521,9 +508,7 @@ button {
 }
 
 
-/* =========================================
-   BREADCRUMB GRADIENT
-========================================= */
+
 
 .pricing-hero-breadcrumb::before {
     content: "";
