@@ -424,6 +424,8 @@ button {
     transform: translateY(-28px);
 }
 
+
+
 /*  hero section  */
 
 
@@ -580,7 +582,7 @@ button {
 
     border: 1px solid rgba(255, 255, 255, 0.45);
 
-    border-radius: 28px;
+    border-radius: 20px;
 
     background: rgba(15, 5, 45, 0.28);
 
@@ -698,7 +700,7 @@ button {
 
     padding: 0 20px;
 
-    border-radius: 30px;
+    border-radius: 16px;
 }
 
 
