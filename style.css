@@ -327,7 +327,7 @@ button {
 
 .nav-item {
     display: flex;
-    align-items: center;
+   
 }
 
 .navbar .nav-link {
@@ -559,12 +559,14 @@ button {
 .highlighted-dtl {
 
     display: flex;
-    justify-content: space-between;
+    gap: 24px;
     align-items: center;
 
+    max-width: 540px;
     padding: 15px;
 
     background: rgba(10, 5, 30, 0.131);
+    border: 1px solid #69696974;
 
     border-radius: 25px;
 
@@ -1707,6 +1709,17 @@ button {
 
 /*Tablets*/
 @media (max-width:990px) {
+
+     .nav-actions {
+        width: 100%;
+
+        justify-content: center;
+        align-items: center;
+
+        gap: 24pxpx;
+
+        margin-top: 20px;
+    }
     .project-header-content .primary-btn {
 
         position: absolute;
@@ -1732,6 +1745,19 @@ button {
 
         width: 80%;
     }
+
+    .highlighted-div{
+
+        margin: 48px auto;
+    }
+
+    .about-image-wrap{
+
+        margin-top: 48px;
+    }
+
+
+
 }
 
 /*small laptops*/

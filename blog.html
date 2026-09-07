@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aivio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <main>
+
+
+        <!-- Hero Section + navigation-->
+
+        <section class="Hero-section">
+
+            <!-- Navbar starts-->
+
+            <div class="container-xxl">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+
+                        <!--logo-->
+
+                        <a class="navbar-brand" href="Index.html">
+                            <img src="Assets/fe900d4d3d122d5b4249c1fedddd9148adc175c0.png" alt="">
+                        </a>
+
+                        <!--navbar toggler-->
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <!--navbar collapse-->
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-3 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="Index.html">
+                                        <span class="nav-text">
+                                            <span>Home</span>
+                                            <span>Home</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="about_us.html">
+                                        <span class="nav-text">
+                                            <span>About us</span>
+                                            <span>About us</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="service.html">
+                                        <span class="nav-text">
+                                            <span>Services</span>
+                                            <span>Services</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="blog.html">
+                                        <span class="nav-text">
+                                            <span>Blog</span>
+                                            <span>Blog</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="contact.html">
+                                        <span class="nav-text">
+                                            <span>Contact</span>
+                                            <span>Contact</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="pricing.html">
+                                        <span class="nav-text">
+                                            <span>Pricing</span>
+                                            <span>Pricing</span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="nav-actions">
+                                <a href="#" class="login-link">Login</a>
+                                <a href="#" class="signup-btn">
+
+                                    <span class="signup-text-wrap">
+
+                                        <span class="signup-text">
+                                            <span>Sign Up</span>
+                                            <span>Sign Up</span>
+                                        </span>
+
+                                    </span>
+
+                                </a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </nav>
+            </div>
+
+            <!--  Hero section -->
+
+            <div class="container-xxl">
+
+                <div class="blog-hero-content">
+
+
+                    <h1 class="page-title">
+                        Blog
+                    </h1>
+
+
+
+                    <p class="blog-hero-description">
+                        AI is transforming everyday life — from smart devices to personalized
+                        experiences, it’s at the heart of how we live and work.
+                    </p>
+
+
+
+                    <div class="blog-breadcrumb">
+                        Home/Blog
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!--  blog cards  -->
+        <section class="blog-list-section">
+
+            <div class="container-xxl">
+
+                <!-- FILTER BUTTON GROUP -->
+                 
+                <div class="blog-filter-wrap">
+
+                    <div class="btn-group blog-filter-group" role="group" aria-label="Blog categories">
+
+                        <button type="button" class="btn blog-filter-btn active">
+                            All
+                        </button>
+
+                        <button type="button" class="btn blog-filter-btn">
+                            Advices
+                        </button>
+
+                        <button type="button" class="btn blog-filter-btn">
+                            Announcements
+                        </button>
+
+                        <button type="button" class="btn blog-filter-btn">
+                            News
+                        </button>
+
+                        <button type="button" class="btn blog-filter-btn">
+                            Consultation
+                        </button>
+
+                        <button type="button" class="btn blog-filter-btn">
+                            Development
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BLOG CARDS -->
+                <div class="row g-4 blog-card-row">
+
+
+                    <div class="col-lg-6">
+
+                        <article class="blog-card">
+
+                            <div class="blog-card-img">
+                                <img src="Assets/6afdba5d718373a07bde82a5d78dd499f97651ba.png" alt="AI technology">
+                            </div>
+
+                            <div class="blog-card-body">
+
+                                <div class="blog-data">
+
+                                    <span>
+                                        <i class="fa-solid fa-user"></i>
+                                        Posted by Admin
+                                    </span>
+
+                                    <span>
+                                        <i class="fa-regular fa-calendar"></i>
+                                        October 30, 2022
+                                    </span>
+
+                                </div>
+
+                                <h3>
+                                    Our Strength, Your Business
+                                </h3>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur. Ligula quis
+                                    amet eu mauris orci scelerisque viverra faucibus egestas.
+                                </p>
+
+                                <a href="#" class="blog-read-more">
+                                    Read More
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+
+                    <div class="col-lg-6">
+
+                        <article class="blog-card">
+
+                            <div class="blog-card-img">
+                                <img src="Assets/9da02cdc70da9f20b09207c45e040b441e832235.png" alt="AI robot">
+                            </div>
+
+                            <div class="blog-card-body">
+
+                                <div class="blog-data">
+
+                                    <span>
+                                        <i class="fa-solid fa-user"></i>
+                                        Posted by Admin
+                                    </span>
+
+                                    <span>
+                                        <i class="fa-regular fa-calendar"></i>
+                                        October 30, 2022
+                                    </span>
+
+                                </div>
+
+                                <h3>
+                                    Our Strength, Your Business
+                                </h3>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur. Ligula quis
+                                    amet eu mauris orci scelerisque viverra faucibus egestas.
+                                </p>
+
+                                <a href="#" class="blog-read-more">
+                                    Read More
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+
+                    <div class="col-lg-6">
+
+                        <article class="blog-card">
+
+                            <div class="blog-card-img">
+                                <img src="Assets/6bdc588e85cc1b6d2a142df6a9ac75248e3f4a3d.png" alt="AI chip">
+                            </div>
+
+                            <div class="blog-card-body">
+
+                                <div class="blog-data">
+
+                                    <span>
+                                        <i class="fa-solid fa-user"></i>
+                                        Posted by Admin
+                                    </span>
+
+                                    <span>
+                                        <i class="fa-regular fa-calendar"></i>
+                                        October 30, 2022
+                                    </span>
+
+                                </div>
+
+                                <h3>
+                                    Our Strength, Your Business
+                                </h3>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur. Ligula quis
+                                    amet eu mauris orci scelerisque viverra faucibus egestas.
+                                </p>
+
+                                <a href="#" class="blog-read-more">
+                                    Read More
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+
+                    <div class="col-lg-6">
+
+                        <article class="blog-card">
+
+                            <div class="blog-card-img">
+                                <img src="Assets/027a99a439f3efb31a0d6bd538f56da6dfb7c4f1.png" alt="AI network">
+                            </div>
+
+                            <div class="blog-card-body">
+
+                                <div class="blog-data">
+
+                                    <span>
+                                        <i class="fa-solid fa-user"></i>
+                                        Posted by Admin
+                                    </span>
+
+                                    <span>
+                                        <i class="fa-regular fa-calendar"></i>
+                                        October 30, 2022
+                                    </span>
+
+                                </div>
+
+                                <h3>
+                                    Our Strength, Your Business
+                                </h3>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur. Ligula quis
+                                    amet eu mauris orci scelerisque viverra faucibus egestas.
+                                </p>
+
+                                <a href="#" class="blog-read-more">
+                                    Read More
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <div class="col-lg-6">
+
+                        <article class="blog-card">
+
+                            <div class="blog-card-img">
+                                <img src="Assets/5989c03c0354b4cfce929bd80de9bee4bc4d93f3.jpg" alt="AI network">
+                            </div>
+
+                            <div class="blog-card-body">
+
+                                <div class="blog-data">
+
+                                    <span>
+                                        <i class="fa-solid fa-user"></i>
+                                        Posted by Admin
+                                    </span>
+
+                                    <span>
+                                        <i class="fa-regular fa-calendar"></i>
+                                        October 30, 2022
+                                    </span>
+
+                                </div>
+
+                                <h3>
+                                    Our Strength, Your Business
+                                </h3>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur. Ligula quis
+                                    amet eu mauris orci scelerisque viverra faucibus egestas.
+                                </p>
+
+                                <a href="#" class="blog-read-more">
+                                    Read More
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <article class="blog-card">
+
+                            <div class="blog-card-img">
+                                <img src="Assets/9359c4f1ef34dbab573eb58d6f304fa253bcb634.jpg" alt="AI network">
+                            </div>
+
+                            <div class="blog-card-body">
+
+                                <div class="blog-data">
+
+                                    <span>
+                                        <i class="fa-solid fa-user"></i>
+                                        Posted by Admin
+                                    </span>
+
+                                    <span>
+                                        <i class="fa-regular fa-calendar"></i>
+                                        October 30, 2022
+                                    </span>
+
+                                </div>
+
+                                <h3>
+                                    Our Strength, Your Business
+                                </h3>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur. Ligula quis
+                                    amet eu mauris orci scelerisque viverra faucibus egestas.
+                                </p>
+
+                                <a href="#" class="blog-read-more">
+                                    Read More
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <article class="blog-card">
+
+                            <div class="blog-card-img">
+                                <img src="Assets/a1e6aaead1b7bf689a023d7906cf659c6aa38b98.png" alt="AI network">
+                            </div>
+
+                            <div class="blog-card-body">
+
+                                <div class="blog-data">
+
+                                    <span>
+                                        <i class="fa-solid fa-user"></i>
+                                        Posted by Admin
+                                    </span>
+
+                                    <span>
+                                        <i class="fa-regular fa-calendar"></i>
+                                        October 30, 2022
+                                    </span>
+
+                                </div>
+
+                                <h3>
+                                    Our Strength, Your Business
+                                </h3>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur. Ligula quis
+                                    amet eu mauris orci scelerisque viverra faucibus egestas.
+                                </p>
+
+                                <a href="#" class="blog-read-more">
+                                    Read More
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <article class="blog-card">
+
+                            <div class="blog-card-img">
+                                <img src="Assets/fe2faf710c719e2eb75150f3d2dd69b2736495f8.jpg" alt="AI network">
+                            </div>
+
+                            <div class="blog-card-body">
+
+                                <div class="blog-data">
+
+                                    <span>
+                                        <i class="fa-solid fa-user"></i>
+                                        Posted by Admin
+                                    </span>
+
+                                    <span>
+                                        <i class="fa-regular fa-calendar"></i>
+                                        October 30, 2022
+                                    </span>
+
+                                </div>
+
+                                <h3>
+                                    Our Strength, Your Business
+                                </h3>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur. Ligula quis
+                                    amet eu mauris orci scelerisque viverra faucibus egestas.
+                                </p>
+
+                                <a href="#" class="blog-read-more">
+                                    Read More
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <article class="blog-card">
+
+                            <div class="blog-card-img">
+                                <img src="Assets/f74bd35db05f3f1faff4a993f46d23839481cd9a.png" alt="AI network">
+                            </div>
+
+                            <div class="blog-card-body">
+
+                                <div class="blog-data">
+
+                                    <span>
+                                        <i class="fa-solid fa-user"></i>
+                                        Posted by Admin
+                                    </span>
+
+                                    <span>
+                                        <i class="fa-regular fa-calendar"></i>
+                                        October 30, 2022
+                                    </span>
+
+                                </div>
+
+                                <h3>
+                                    Our Strength, Your Business
+                                </h3>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur. Ligula quis
+                                    amet eu mauris orci scelerisque viverra faucibus egestas.
+                                </p>
+
+                                <a href="#" class="blog-read-more">
+                                    Read More
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                    <div class="col-lg-6">
+
+                        <article class="blog-card">
+
+                            <div class="blog-card-img">
+                                <img src="Assets/62e2076869618f34e70f72a6614178a6f7aa23b1.png" alt="AI network">
+                            </div>
+
+                            <div class="blog-card-body">
+
+                                <div class="blog-data">
+
+                                    <span>
+                                        <i class="fa-solid fa-user"></i>
+                                        Posted by Admin
+                                    </span>
+
+                                    <span>
+                                        <i class="fa-regular fa-calendar"></i>
+                                        October 30, 2022
+                                    </span>
+
+                                </div>
+
+                                <h3>
+                                    Our Strength, Your Business
+                                </h3>
+
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur. Ligula quis
+                                    amet eu mauris orci scelerisque viverra faucibus egestas.
+                                </p>
+
+                                <a href="#" class="blog-read-more">
+                                    Read More
+                                </a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+
+                </div>
+
+
+                <!-- BOOTSTRAP PAGINATION -->
+                 
+                <nav class="blog-pagination-wrap" aria-label="Blog pagination">
+
+                    <ul class="pagination justify-content-center">
+
+                        <li class="page-item">
+                            <a class="page-link" href="#">
+                                <i class="fa-solid fa-angle-left"></i>
+                            </a>
+                        </li>
+
+                        <li class="page-item">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+
+                        <li class="page-item active">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+
+                        <li class="page-item">
+                            <a class="page-link" href="#">3</a>
+                        </li>
+
+                        <li class="page-item">
+                            <a class="page-link" href="#">4</a>
+                        </li>
+
+                        <li class="page-item">
+                            <a class="page-link" href="#">5</a>
+                        </li>
+
+                        <li class="page-item">
+                            <a class="page-link" href="#">6</a>
+                        </li>
+
+                        <li class="page-item">
+                            <a class="page-link" href="#">7</a>
+                        </li>
+
+                        <li class="page-item">
+                            <a class="page-link" href="#">8</a>
+                        </li>
+
+                        <li class="page-item">
+                            <a class="page-link" href="#">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+            </div>
+
+        </section>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
