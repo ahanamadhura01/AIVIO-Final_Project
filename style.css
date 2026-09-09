@@ -28,7 +28,7 @@ html {
 
 @font-face {
     font-family: "ClashDisplay";
-    src: url("Fonts/ClashDisplay-Variable.ttf") format("truetype");
+    src: url("./../Fonts/ClashDisplay-Variable.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
@@ -262,7 +262,7 @@ button {
     min-height: 100vh;
     overflow: hidden;
     padding: 16px 0 0;
-    background-image: url(Assets/73ebcb757d1a3f66a691ff331f62b4ddb5c6503b.png);
+    background-image: url(./../Assets/73ebcb757d1a3f66a691ff331f62b4ddb5c6503b.png);
     background-size: cover;
 
 }
@@ -876,7 +876,7 @@ button {
 
     padding: 70px 0;
 
-    background-image: url("Assets/Polygon\ vector\ Section\ new.jpg");
+    background-image: url("./../Assets/Polygon\ vector\ Section\ new.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
